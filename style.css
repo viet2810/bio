@@ -1,0 +1,131 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    background-attachment: fixed;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 86px;
+    margin-bottom: 86px;
+    width: 600px;
+    min-height: 600px;
+    max-width: calc(100% - 24px);
+    border-radius: 16px;
+    background-color: #bcbcbc;
+    box-shadow: 0 0 60px #bcbcbc;
+}
+
+.image {
+    margin: 0 auto;
+    transform: translateY(-45%);
+    display: block;
+}
+
+.item-1 img {
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 30px rgb(148, 196, 204);
+}
+
+.item-1 .text {
+    margin-top: -32px;
+}
+
+.item-1 .text .text-name {
+    font-size: 24px;
+}
+
+.item-1 .text .text-des {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.bd {
+    margin: 0 auto;
+    margin-top: 28px;
+    width: 90%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.bd.dark {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.item-2 {
+    margin-bottom: 48px;
+}
+
+.heading {
+    margin: 0 auto;
+    width: 170px;
+    transform: translateY(-50%);
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #bcbcbc;
+    display: block;
+}
+
+.item-2 .list-item {
+    margin: 0 auto;
+    margin-top: -12px;
+    width: 80%;
+    display: block;
+}
+
+.item-2 .item {
+    padding: 16px 0;
+    font-size: 18px;
+}
+
+.list-item-2 {
+    margin: 0 auto;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social img {
+    margin: 8px 12px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgb(148, 196, 204);
+    transition: all 0.3s;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
+
+.btn-mode {
+    position: fixed;
+    bottom: 36px;
+    right: 36px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.footer {
+    position: relative;
+    margin-top: 48px;
+    bottom: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
